@@ -14,13 +14,11 @@ export const HomeHeader = () => {
             <div className="lg:hidden">
                 <Logo size={24} />
             </div>
+            <div className="hidden lg:block text-2xl">Página inicial</div>
             <div
-                className="hidden lg:block text-2xl"
                 onClick={() => setShowMenu(true)}
+                className="cursor-pointer lg:hidden"
             >
-                Página inicial
-            </div>
-            <div className="cursor-pointer lg:hidden">
                 <FontAwesomeIcon icon={faBars} className="size-6" />
             </div>
 
